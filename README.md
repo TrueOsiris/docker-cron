@@ -11,9 +11,9 @@ minimal crontab container
 ![Github last-commit](https://img.shields.io/github/last-commit/TrueOsiris/docker-cron)
 
 ```
-docker run -d -v /path/on/host:/etc/crond.d trueosiris/cron
+docker run -d -v /path/on/host/croncontainer/crond.d:/etc/crond.d trueosiris/cron
 ```
-
+A base folder structure will be created in volume crond.d <br>
 example tree of /path/on/host/croncontainer/crond.d/ <br>
 
 ├── 15min <br>
