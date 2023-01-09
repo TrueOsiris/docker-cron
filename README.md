@@ -15,11 +15,11 @@ docker run -d -v /path/on/host:/etc/crond.d trueosiris/cron
 ```
 
 example tree of /path/on/host/croncontainer/crond.d/
-├── 15min
-│   └── echo_date.sh
-├── daily
-├── hourly
-├── min
-├── monthly
+├── 15min \
+│   └── echo_date.sh \
+├── daily \
+├── hourly \
+├── min \
+├── monthly \
 └── weekly
 
