@@ -1,5 +1,6 @@
 # do daily/weekly/monthly maintenance
 # min	hour	day	month	weekday	command
+*	*	*	*	*	run-parts /etc/crond.d/min
 */15	*	*	*	*	run-parts /etc/crond.d/15min
 0	*	*	*	*	run-parts /etc/crond.d/hourly
 0	2	*	*	*	run-parts /etc/crond.d/daily
