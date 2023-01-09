@@ -14,7 +14,8 @@ minimal crontab container
 docker run -d -v /path/on/host:/etc/crond.d trueosiris/cron
 ```
 
-example tree of /path/on/host/croncontainer/crond.d/
+example tree of /path/on/host/croncontainer/crond.d/ <br>
+
 ├── 15min <br>
 │   └── echo_date.sh <br>
 ├── daily <br>
